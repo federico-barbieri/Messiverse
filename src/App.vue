@@ -1,58 +1,45 @@
 <script setup>
+import Layout from "./components/Layout.vue"
+import { useRoute } from "vue-router";
+import { ref, watch } from "vue";
+
+
+// Get the current route using useRoute()
+const route = useRoute();
+
+// Use a ref to track if the current route is the home page
+const showHomePage = ref(route.path === '/');
+
+// Use a watcher to update the showHomePage flag when the route changes
+watch(() => route.path, (newPath) => {
+  showHomePage.value = newPath === '/';
+});
 
 </script>
 
 <template>
 
 
-
-<header>
-    <nav>
-
-      <router-link to="/">HOME</router-link>
-      <router-link to="/football">FOOTBALL</router-link>
+<Layout>
 
 
-      <router-link to="/about">ABOUT</router-link>
+  <main v-if="showHomePage">
 
-    </nav>
-
-  
-   
-  </header>
-
-  <main>
-
-    <section class="main-title">
-
-      <h1>WELCOME TO THE MESSIVERSE</h1>
-      <p>Select a universe to discover Messi's random timelines </p>
-
-    </section>
-
-    <section class="secondary-content">
-
-      <p>I am app</p>
-
-      <router-view />
-    </section>
-
-   
-
-
+    <Home />
 
   </main>
+
+  <router-view />
 
 
 
   
 
  
-
+</Layout>
  
 </template>
 
 <style scoped>
-
 
 </style>

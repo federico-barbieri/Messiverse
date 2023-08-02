@@ -4,12 +4,11 @@
 
   <main>
 
-    <section class="secondary-content">
+
 
       I am football
 
-    <router-view />
-    </section>
+
    
   </main>
 

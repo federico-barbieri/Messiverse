@@ -1,0 +1,30 @@
+{ 
+    "artists": [
+    {
+        "name": "Salvador Dali",
+        "image": ["./messi-ai/dali1.png", "./messi-ai/dali2.png"],
+        "id": 1
+    },
+    {
+        "name": "Pablo Picasso",
+        "image": "./messi-ai/picasso1.png",
+        "id": 2
+    },
+    {
+        "name": "Leonardo Da Vinci",
+        "image": "./messi-ai/davinci1.png",
+        "id": 3
+    },
+    {
+        "name": "Hieronymous Bosch",
+        "image": "./messi-ai/bosch1.png",
+        "id": 4
+    },
+    {
+        "name": "Tarsila Do Amaral",
+        "image": "./messi-ai/amaral1.png",
+        "id": 5
+    }
+
+]
+}

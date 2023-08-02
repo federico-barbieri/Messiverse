@@ -2,12 +2,11 @@
 
 <main>
 
-<section class="secondary-content">
 
-  I am football
 
-<router-view />
-</section>
+  I am about
+
+
 
 </main>
 </template>
