@@ -7,6 +7,7 @@ import Football from "./views/Football.vue"
 import AboutPage from "./views/AboutPage.vue"
 import Home from "./views/Home.vue"
 import SalvadorDali from "./views/ArtistPages/SalvadorDali.vue"
+import PabloPicasso from "./views/ArtistPages/PabloPicasso.vue"
 
 const router = createRouter({
     history: createWebHistory(),
@@ -15,6 +16,7 @@ const router = createRouter({
         {path: '/football', component: Football},
         {path: '/about', component: AboutPage},
         {path: '/dali', component: SalvadorDali},
+        {path: '/picasso', component: PabloPicasso},
     ],
     
 });

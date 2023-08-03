@@ -2,31 +2,39 @@
     "artists": [
     {
         "name": "Salvador Dali",
-        "image": ["./messi-ai/dali1.png", "./messi-ai/dali2.png"
-        , "./messi-ai/dali3.png", "./messi-ai/dali4.png", "./messi-ai/dali5.png"
-        , "./messi-ai/dali6.png", "./messi-ai/dali7.png", "./messi-ai/dali8.png"
-        , "./messi-ai/dali9.png", "./messi-ai/dali10.png"],
-        "id": 1
+        "image": ["./messi-ai/dali/dali1.png", "./messi-ai/dali/dali2.png"
+        , "./messi-ai/dali/dali3.png", "./messi-ai/dali/dali4.png", "./messi-ai/dali/dali5.png"
+        , "./messi-ai/dali/dali6.png", "./messi-ai/dali/dali7.png", "./messi-ai/dali/dali8.png"
+        , "./messi-ai/dali/dali9.png", "./messi-ai/dali/dali10.png"],
+        "id": 1,
+        "slug": "dali"
     },
     {
         "name": "Pablo Picasso",
-        "image": "./messi-ai/picasso1.png",
-        "id": 2
+        "image": ["./messi-ai/picasso/picasso1.png", "./messi-ai/picasso/picasso2.png"
+        , "./messi-ai/picasso/picasso3.png", "./messi-ai/picasso/picasso4.png", "./messi-ai/picasso/picasso5.png"
+        , "./messi-ai/picasso/picasso6.png", "./messi-ai/picasso/picasso7.png", "./messi-ai/picasso/picasso8.png"
+        , "./messi-ai/picasso/picasso9.png", "./messi-ai/picasso/picasso10.png"],
+        "id": 2,
+        "slug": "picasso"
     },
     {
         "name": "Leonardo Da Vinci",
         "image": "./messi-ai/davinci1.png",
-        "id": 3
+        "id": 3,
+        "slug": "davinci"
     },
     {
         "name": "Hieronymous Bosch",
         "image": "./messi-ai/bosch1.png",
-        "id": 4
+        "id": 4,
+        "slug": "bosch"
     },
     {
         "name": "Tarsila Do Amaral",
         "image": "./messi-ai/amaral1.png",
-        "id": 5
+        "id": 5,
+        "slug": "doamaral"
     }
 
 ]

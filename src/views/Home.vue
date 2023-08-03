@@ -4,7 +4,7 @@
       <p class="select-a-universe">Select a universe to discover Messi's random timelines </p>
 
       <ul>
-        <li v-for="artist in artists" :key="artist.id"><router-link to="/dali">{{ artist.name }}</router-link></li>
+        <li v-for="artist in artists" :key="artist.id"><router-link :to="'/' + artist.slug">{{ artist.name }}</router-link></li>
       </ul>
 
      
@@ -33,6 +33,10 @@ main{
     width: 100vw;
     height: 80vh;
     border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 ul{
@@ -42,7 +46,7 @@ ul{
     align-items: center;
     justify-content: space-around;
     margin: 5rem auto;
-    width: 50%;
+    width: 100%;
     height: 50%;
     border: 1px solid red;
     flex-wrap: wrap;
@@ -52,7 +56,8 @@ ul > li {
     border: 1px dotted white;
     padding: 1rem;
     border-radius: 10px;
-    transition: all 0.5s ease-in
+    transition: all 0.5s ease-in;
+    font-size: 2rem;
 }
 
 ul > li:hover {
