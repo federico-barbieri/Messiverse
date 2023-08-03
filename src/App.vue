@@ -1,5 +1,5 @@
 <script setup>
-import Layout from "./components/Layout.vue"
+import Layout from "@/components/Layout.vue";
 import { useRoute } from "vue-router";
 import { ref, watch } from "vue";
 

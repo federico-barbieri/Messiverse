@@ -2,7 +2,10 @@
     "artists": [
     {
         "name": "Salvador Dali",
-        "image": ["./messi-ai/dali1.png", "./messi-ai/dali2.png"],
+        "image": ["./messi-ai/dali1.png", "./messi-ai/dali2.png"
+        , "./messi-ai/dali3.png", "./messi-ai/dali4.png", "./messi-ai/dali5.png"
+        , "./messi-ai/dali6.png", "./messi-ai/dali7.png", "./messi-ai/dali8.png"
+        , "./messi-ai/dali9.png", "./messi-ai/dali10.png"],
         "id": 1
     },
     {
