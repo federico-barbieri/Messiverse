@@ -36,7 +36,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 ul{
@@ -48,7 +48,6 @@ ul{
     margin: 5rem auto;
     width: 100%;
     height: 50%;
-    border: 1px solid red;
     flex-wrap: wrap;
 }
 

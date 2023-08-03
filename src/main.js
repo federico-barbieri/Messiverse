@@ -8,6 +8,9 @@ import AboutPage from "./views/AboutPage.vue"
 import Home from "./views/Home.vue"
 import SalvadorDali from "./views/ArtistPages/SalvadorDali.vue"
 import PabloPicasso from "./views/ArtistPages/PabloPicasso.vue"
+import Bosch from "./views/ArtistPages/Bosch.vue"
+import Magritte from "./views/ArtistPages/Magritte.vue"
+import Amaral from "./views/ArtistPages/Amaral.vue"
 
 const router = createRouter({
     history: createWebHistory(),
@@ -17,6 +20,9 @@ const router = createRouter({
         {path: '/about', component: AboutPage},
         {path: '/dali', component: SalvadorDali},
         {path: '/picasso', component: PabloPicasso},
+        {path: '/bosch', component: Bosch},
+        {path: '/magritte', component: Magritte},
+        {path: '/doamaral', component: Amaral},
     ],
     
 });

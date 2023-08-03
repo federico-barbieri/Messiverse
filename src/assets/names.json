@@ -19,20 +19,29 @@
         "slug": "picasso"
     },
     {
-        "name": "Leonardo Da Vinci",
-        "image": "./messi-ai/davinci1.png",
+        "name": "Rene Magritte",
+        "image": ["./messi-ai/magritte/magritte1.png", "./messi-ai/magritte/magritte2.png"
+        , "./messi-ai/magritte/magritte3.png", "./messi-ai/magritte/magritte4.png", "./messi-ai/magritte/magritte5.png"
+        , "./messi-ai/magritte/magritte6.png", "./messi-ai/magritte/magritte7.png", "./messi-ai/magritte/magritte8.png"
+        , "./messi-ai/magritte/magritte9.png", "./messi-ai/magritte/magritte10.png"],
         "id": 3,
-        "slug": "davinci"
+        "slug": "magritte"
     },
     {
         "name": "Hieronymous Bosch",
-        "image": "./messi-ai/bosch1.png",
+        "image": ["./messi-ai/bosch/bosch1.png", "./messi-ai/bosch/bosch2.png"
+        , "./messi-ai/bosch/bosch3.png", "./messi-ai/bosch/bosch4.png", "./messi-ai/bosch/bosch5.png"
+        , "./messi-ai/bosch/bosch6.png", "./messi-ai/bosch/bosch7.png", "./messi-ai/bosch/bosch8.png"
+        , "./messi-ai/bosch/bosch9.png", "./messi-ai/bosch/bosch10.png"],
         "id": 4,
         "slug": "bosch"
     },
     {
         "name": "Tarsila Do Amaral",
-        "image": "./messi-ai/amaral1.png",
+        "image": ["./messi-ai/amaral/amaral1.png", "./messi-ai/amaral/amaral2.png"
+        , "./messi-ai/amaral/amaral3.png", "./messi-ai/amaral/amaral4.png", "./messi-ai/amaral/amaral5.png"
+        , "./messi-ai/amaral/amaral6.png", "./messi-ai/amaral/amaral7.png", "./messi-ai/amaral/amaral8.png"
+        , "./messi-ai/amaral/amaral9.png", "./messi-ai/amaral/amaral10.png"],
         "id": 5,
         "slug": "doamaral"
     }
