@@ -16,7 +16,20 @@
         , "./messi-ai/picasso/picasso6.png", "./messi-ai/picasso/picasso7.png", "./messi-ai/picasso/picasso8.png"
         , "./messi-ai/picasso/picasso9.png", "./messi-ai/picasso/picasso10.png"],
         "id": 2,
-        "slug": "picasso"
+        "slug": "picasso",
+        "imageTitle": ["Triumphant Melody", "The Winning Cubes", "Victory in Blue and Rose", 
+        "The Champion's Facets", "Triumph of Forms", "The Baller's Dance", "Victory in Cubism",
+        "The Victorious Blue Period", "Champion's Portrait", "The Euphoric Goal"],
+        "imageDescription": ["Messi's victory portrayed in harmonious lines and bold colors, resonating with the triumph of a beautiful melody.",
+        "Fragmented geometric forms come together, capturing the essence of Messi's triumph in a series of interconnected cubes.",
+        "Picasso's signature Blue and Rose periods converge, depicting Messi's victorious moment with a blend of emotional hues.",
+        "Multi-faceted portraits of Messi reveal the diverse aspects of his character that led to his World Cup triumph.",
+        "Distorted shapes and abstract forms unite to celebrate Messi's victory, reflecting the complexity of his journey.",
+        "Fluid lines and dynamic movements capture the grace and skill of Messi as he dances his way to victory.",
+        "A Cubist exploration of Messi's winning moment, showcasing simultaneous perspectives in a single artwork.",
+        "Messi's triumph portrayed through the lens of Picasso's Blue Period, evoking deep emotions and introspection.",
+        "Picasso's masterful portrait of Messi immortalizes the World Cup victory with an enduring gaze.",
+        "Vibrant colors and lively brushstrokes capture the joy and euphoria of Messi's decisive winning goal."]
     },
     {
         "name": "Rene Magritte",

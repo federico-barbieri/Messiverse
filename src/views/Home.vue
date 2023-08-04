@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="main-title">
         <h1>WELCOME TO THE MESSIVERSE</h1>
       <p class="select-a-universe">Select a universe to discover Messi's random timelines </p>
 
@@ -29,7 +29,7 @@ h1{
     font-size: 1.2rem;
 }
 
-main{
+.main-title{
     width: 100vw;
     height: 80vh;
     border: 1px solid white;
@@ -37,6 +37,14 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.main-title > h1{
+    font-size: 5rem;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
 }
 
 ul{
