@@ -15,7 +15,31 @@
             "./messi-ai/dali/dali10.png"
         ],
         "id": 1,
-        "slug": "dali"
+        "slug": "dali",
+        "imageTitle": [
+            "Surreal Score",
+            "Cosmic Victory",
+            "Persistence of Triumph",
+            "Metamorphic Glory",
+            "Telepathic Triumph",
+            "Melting Goal",
+            "Time-Bending Victory",
+            "Catalan Constellation",
+            "Eccentric Euphoria",
+            "Dreamscapes of Glory"
+          ],
+        "imageDescription": [
+        "In a dreamlike realm, Messi's winning goal materializes as a melting clock, bending reality and time itself.",
+        "A celestial spectacle unfolds as Messi soars through the cosmos, leaving behind a trail of stars and galaxies.",
+        "In a world of distorted perspectives, Messi's unwavering determination shines through, immortalizing his triumph.",
+        "Shapes and forms morph into Messi's victorious celebration, capturing the essence of transformation and triumph.",
+        "In a surreal exchange, Messi's vision connects with the ball, telepathically guiding it into the net for victory.",
+        "A surreal landscape melts around the net, as Messi's goal transforms reality into a triumphant dreamscape.",
+        "In Dali's time-bending masterpiece, Messi's goal creates a ripple effect that defies the laws of the universe.",
+        "The stars align in a cosmic formation, spelling out Messi's name and commemorating his World Cup win.",
+        "With eccentric flair, Dali captures the euphoria of Messi's victory, where the ordinary becomes extraordinary.",
+        "In a world of surreal landscapes, Messi's triumph becomes a recurring dream that inspires generations."
+      ]
     },
     {
         "name": "Pablo Picasso",

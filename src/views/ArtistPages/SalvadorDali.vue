@@ -1,10 +1,17 @@
 <template>
-    <main class="salvador-main">
+    <main class="dali-main">
     <h1>MESSI IN SALVADOR DALI'S UNIVERSE</h1>
 
     <ul>
-      <li v-for="artist in dali" :key="artist.id">
-        <img v-for="image in artist.image" :src="image" alt="">
+      <li v-for="index in dali.image.length" :key="index" class="img-span-li">
+        <div class="img-wrapper">
+          <img :src="dali.image[index - 1]" :alt="dali.imageTitle[index - 1]" />
+
+        </div>
+        <div class="text-div">
+        <span class="picture-title"><strong>{{ (dali.imageTitle[index - 1]).toUpperCase() }}</strong></span>
+        <span class="picture-description"><em>{{ dali.imageDescription[index - 1] }}</em></span>
+      </div>
       </li>
     </ul>
   </main>
@@ -15,15 +22,15 @@ import data from "../../assets/names.json";
 
 const artists = data.artists;
 
-const dali = artists.filter((artist) => artist.name === "Salvador Dali");
+const dali = artists.find((artist) => artist.name === "Salvador Dali");
 
 </script>
 
 <style scoped>
 
-.salvador-main{
-    width: 100vw;
-    min-height: 90vh;
+.dali-main{
+    width: 95vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,20 +43,59 @@ h1{
 }
 
 
-
 main > ul{
-    width: 100%;
-    height: 80%;
+    width: 90%;
+    height: auto;
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 auto;
+    padding: 1rem;
 }
 
+.img-span-li{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+.text-div{
+  max-width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+
+.picture-title{
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+.picture-description{
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+
+.img-wrapper{
+  max-width: 50%;
+}
+
+
 img{
-    width: 25rem;
+    max-width: 100%;
     height: auto;
     border-radius: 30px;
     filter: drop-shadow(2px 2px 2px white);
@@ -57,8 +103,5 @@ img{
     transition: all 0.5s ease-in;
 }
 
-img:hover{
-transform: scale(1.1);
-}
 
 </style>
