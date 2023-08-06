@@ -3,8 +3,15 @@
     <h1>MESSI IN RENE MAGRITTE'S UNIVERSE</h1>
 
     <ul>
-      <li v-for="artist in magritte" :key="artist.id">
-        <img v-for="image in artist.image" :src="image" alt="">
+      <li v-for="index in magritte.image.length" :key="index" class="img-span-li">
+        <div class="img-wrapper">
+          <img :src="magritte.image[index - 1]" :alt="magritte.imageTitle[index - 1]" />
+
+        </div>
+        <div class="text-div">
+        <span class="picture-title"><strong>{{ (magritte.imageTitle[index - 1]).toUpperCase() }}</strong></span>
+        <span class="picture-description"><em>{{ magritte.imageDescription[index - 1] }}</em></span>
+      </div>
       </li>
     </ul>
   </main>
@@ -15,15 +22,15 @@ import data from "../../assets/names.json";
 
 const artists = data.artists;
 
-const magritte = artists.filter((artist) => artist.name === "Rene Magritte");
+const magritte = artists.find((artist) => artist.name === "Rene Magritte");
 
 </script>
 
 <style scoped>
 
 .magritte-main{
-    width: 100vw;
-    min-height: 90vh;
+    width: 95vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,20 +43,59 @@ h1{
 }
 
 
-
 main > ul{
-    width: 100%;
-    height: 80%;
+    width: 90%;
+    height: auto;
     list-style-type: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 0 auto;
+    padding: 1rem;
 }
 
+.img-span-li{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+.text-div{
+  max-width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+
+.picture-title{
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  font-size: 2rem;
+}
+
+.picture-description{
+  font-size: 1.2rem;
+  max-width: 80%;
+}
+
+.img-wrapper{
+  max-width: 50%;
+}
+
+
 img{
-    width: 25rem;
+    max-width: 100%;
     height: auto;
     border-radius: 30px;
     filter: drop-shadow(2px 2px 2px white);
@@ -57,8 +103,5 @@ img{
     transition: all 0.5s ease-in;
 }
 
-img:hover{
-transform: scale(1.1);
-}
 
 </style>

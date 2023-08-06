@@ -97,7 +97,31 @@
             "./messi-ai/magritte/magritte10.png"
         ],
         "id": 3,
-        "slug": "magritte"
+        "slug": "magritte",
+        "imageTitle": [
+            "The Sublime Victory",
+            "The Mirror of Triumph",
+            "Victory's Apples",
+            "The Empire of Victory",
+            "The Key to Victory",
+            "The Son of Triumph",
+            "The Grand Illusion of Victory",
+            "The Victory's Clouds",
+            "The Treachery of Victory",
+            "The Call of Triumph"
+        ],
+        "imageDescription": [
+            "Magritte's surreal touch elevates Messi's World Cup win to a realm of sublime mystery and wonder.",
+            "Messi's reflection in Magritte's mirror symbolizes self-discovery and the transformative power of victory.",
+            "Apples, a recurring motif in Magritte's works, become a metaphor for the fruitful rewards of Messi's triumph.",
+            "Magritte's enigmatic landscape portrays Messi's triumph as the ruler of a surreal and symbolic empire.",
+            "In a surreal setting, Messi holds a key representing the unlocking of success and the door to new possibilities.",
+            "Magritte's iconic bowler-hatted man embodies Messi's victory, hinting at the enigma of his greatness.",
+            "Playing with perception, Magritte's artwork challenges the notion of victory, blurring lines between reality and imagination.",
+            "Clouds take on symbolic meaning in Magritte's painting, representing the dreams and aspirations of Messi's triumph.",
+            "In classic Magritte style, the painting challenges conventional ideas of victory, leaving viewers in contemplation.",
+            "Magritte's artwork presents Messi's victory as a beckoning call to new heights and achievements."
+        ]
     },
     {
         "name": "Hieronymous Bosch",
@@ -113,7 +137,31 @@
             "./messi-ai/bosch/bosch9.png", 
             "./messi-ai/bosch/bosch10.png"],
         "id": 4,
-        "slug": "bosch"
+        "slug": "bosch",
+        "imageTitle": [
+            "The World Cup Uprising",
+            "Triumph in the Garden of Earthly Delights",
+            "The Crowned Champion",
+            "The Victory's Temptations",
+            "The Victory's Alchemy",
+            "Triumphant Creatures",
+            "The World Cup Garden",
+            "The Road to Triumph",
+            "The Triumph of Hieronymus",
+            "The Victorious Inferno"
+        ],
+        "imageDescription": [
+            "Bosch's intricate detail reveals a world of celebration and chaos as Messi's triumph inspires a joyous rebellion.",
+            "Messi's victorious moment finds a place amidst Bosch's iconic triptych, merging reality and fantasy.",
+            "In a fantastical realm, Messi is crowned as the ultimate champion in Bosch's imaginative world.",
+            "Bosch's painting portrays the temptations faced on the path to triumph, with Messi emerging victorious.",
+            "Bosch's alchemical symbols allude to the transformative power of Messi's World Cup victory.",
+            "Bizarre creatures surround Messi's victorious moment, representing the challenges he overcame.",
+            "Bosch's surreal garden becomes the backdrop of Messi's victory, teeming with symbolism and life.",
+            "A winding path leads Messi through Bosch's imaginative landscape to the pinnacle of victory.",
+            "Bosch's self-portrait celebrates Messi's triumph while paying homage to the artist's own name.",
+            "In a fantastical inferno, Messi emerges unscathed, symbolizing his triumph over adversity."
+        ]
     },
     {
         "name": "Tarsila Do Amaral",
