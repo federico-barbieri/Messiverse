@@ -2,6 +2,7 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
+import {createPinia} from "pinia";
 import App from './App.vue'
 import Football from "./views/Football.vue"
 import AboutPage from "./views/AboutPage.vue"
@@ -11,6 +12,7 @@ import PabloPicasso from "./views/ArtistPages/PabloPicasso.vue"
 import Bosch from "./views/ArtistPages/Bosch.vue"
 import Magritte from "./views/ArtistPages/Magritte.vue"
 import Amaral from "./views/ArtistPages/Amaral.vue"
+
 
 const router = createRouter({
     history: createWebHistory(),
@@ -31,6 +33,6 @@ const router = createRouter({
 
 const app = createApp(App)
 
-app.use(router);
+app.use(router).use(createPinia());
 
 app.mount('#app')
