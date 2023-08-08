@@ -9,7 +9,7 @@
     </nav>
   </header>
   <main>
-    <Cart v-show="showCart.value" />
+    <Cart v-show="showCart" @closeWithEmitEvent="consoling"/>
     <slot />
   </main>
 </template>
@@ -24,6 +24,10 @@ let showCart = ref(false); // Use the ref function to create a reactive property
 
 function showMeTheCart(){
   showCart.value = true;
+}
+
+function consoling(data){
+console.log(data);
 }
 </script>
 

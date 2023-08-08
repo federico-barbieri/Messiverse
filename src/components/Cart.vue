@@ -5,12 +5,19 @@
             <li>thing 1</li>
             <li>thing 2</li>
         </ul>
-        <span>X</span>
+        <span class="ex" @click="closeWithEmitEvent">X</span>
     </div>
     
 </template>
 
 <script setup>
+
+
+const emit = defineEmits(['closeWithEmitEvent'])
+
+function closeWithEmitEvent(){
+    emit("closeWithEmitEvent", "sup")
+}
 
 </script>
 
@@ -29,5 +36,7 @@ div{
     color: black;
     font-size: 2rem;
 }
+
+.ex:hover{cursor: pointer;}
 
 </style>
