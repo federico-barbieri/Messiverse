@@ -19,6 +19,8 @@ import data from "../assets/names.json"
 
 const artists = data.artists;
 
+
+
 </script>
 
 <style scoped>

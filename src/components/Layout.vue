@@ -26,8 +26,8 @@ function showMeTheCart(){
   showCart.value = true;
 }
 
-function consoling(data){
-console.log(data);
+function consoling(){
+showCart.value = false;
 }
 </script>
 

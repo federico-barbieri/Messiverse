@@ -6,11 +6,11 @@
       <li v-for="index in picasso.image.length" :key="index" class="img-span-li">
         <div class="img-wrapper">
           <img :src="picasso.image[index - 1]" :alt="picasso.imageTitle[index - 1]" />
-
         </div>
         <div class="text-div">
         <span class="picture-title"><strong>{{ (picasso.imageTitle[index - 1]).toUpperCase() }}</strong></span>
         <span class="picture-description"><em>{{ picasso.imageDescription[index - 1] }}</em></span>
+        <span class="add-to-cart">Add to cart</span>
       </div>
       </li>
     </ul>
@@ -76,8 +76,6 @@ main > ul{
   justify-content: center;
 }
 
-
-
 .picture-title{
   margin-bottom: 1rem;
   text-decoration: underline;
@@ -87,6 +85,23 @@ main > ul{
 .picture-description{
   font-size: 1.2rem;
   max-width: 80%;
+}
+
+.add-to-cart{
+  font-size: 1.5rem;
+  display: block;
+  margin: 2rem 0;
+  border: 1px solid white;
+  padding: 1rem;
+  transition: all 0.5s ease-in;
+}
+
+.add-to-cart:hover{
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .img-wrapper{
