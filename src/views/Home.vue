@@ -63,6 +63,39 @@ ul{
     flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 700px){
+    .main-title{
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+.main-title > h1{
+    font-size: 5rem;
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+    ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem auto;
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+}
+}
+
 ul > li {
     border: 1px dotted white;
     padding: 1rem;
