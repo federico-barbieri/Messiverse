@@ -4,6 +4,10 @@
         <ul>
             <li>thing 1</li>
             <li>thing 2</li>
+            <li>thing 1</li>
+            <li>thing 2</li>
+            <li>thing 1</li>
+            <li>thing 2</li>
         </ul>
         <span class="ex" @click="closeWithEmitEvent">X</span>
     </div>
