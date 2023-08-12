@@ -20,7 +20,7 @@
 const emit = defineEmits(['closeWithEmitEvent'])
 
 function closeWithEmitEvent(){
-    emit("closeWithEmitEvent", "sup")
+    emit("closeWithEmitEvent", "Close cart")
 }
 
 </script>
