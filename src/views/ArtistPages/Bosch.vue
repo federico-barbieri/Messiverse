@@ -4,11 +4,11 @@
 
     <ul>
       <li v-for="index in bosch.image.length" :key="index" class="img-span-li">
-        <div class="img-wrapper">
+        <div class="img-wrapper" :style="{ order: index % 2 === 0 ? '2' : '1' }">
           <img :src="bosch.image[index - 1]" :alt="bosch.imageTitle[index - 1]" />
 
         </div>
-        <div class="text-div">
+        <div class="text-div" :style="{ order: index % 2 === 0 ? '1' : '2' }">
         <span class="picture-title"><strong>{{ (bosch.imageTitle[index - 1]).toUpperCase() }}</strong></span>
         <span class="picture-description"><em>{{ bosch.imageDescription[index - 1] }}</em></span>
       </div>
@@ -74,6 +74,14 @@ main > ul{
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+
+.img-span-li:nth-child(odd) .text-div{
+    order: 1;
+}
+
+.img-span-li:nth-child(even) .text-div{
+    order: 2;
 }
 
 

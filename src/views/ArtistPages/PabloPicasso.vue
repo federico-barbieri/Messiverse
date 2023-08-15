@@ -4,10 +4,10 @@
 
     <ul>
       <li v-for="index in picasso.image.length" :key="index" class="img-span-li">
-        <div class="img-wrapper">
+        <div class="img-wrapper" :style="{ order: index % 2 === 0 ? '2' : '1' }">
           <img :src="picasso.image[index - 1]" :alt="picasso.imageTitle[index - 1]" />
         </div>
-        <div class="text-div">
+        <div class="text-div" :style="{ order: index % 2 === 0 ? '1' : '2' }">
         <span class="picture-title"><strong>{{ (picasso.imageTitle[index - 1]).toUpperCase() }}</strong></span>
         <span class="picture-description"><em>{{ picasso.imageDescription[index - 1] }}</em></span>
         <span class="add-to-cart">Add to cart</span>
@@ -65,6 +65,14 @@ main > ul{
   justify-content: space-between;
   padding: 1rem;
   border: 1px solid white;
+}
+
+.img-span-li:nth-child(odd) .text-div{
+    order: 1;
+}
+
+.img-span-li:nth-child(even) .text-div{
+    order: 2;
 }
 
 .text-div{
