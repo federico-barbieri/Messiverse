@@ -2,7 +2,6 @@
   <header>
     <nav>
       <router-link to="/">HOME</router-link>
-      <router-link to="/football">FOOTBALL</router-link>
       <router-link to="/about">ABOUT</router-link>
       <span>CART({{ cartStore.getCount }})</span>
       <button @click="showMeTheCart">show cart</button>

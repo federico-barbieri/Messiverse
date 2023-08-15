@@ -1,5 +1,6 @@
 { 
     "artists": [
+    
     {
         "name": "Salvador Dali",
         "image": [
@@ -205,6 +206,47 @@
             "Tarsila's tropical paradise sets the stage for Messi's triumph, surrounded by nature's beauty.",
             "Messi's triumph becomes a powerful statement of determination and excellence in Tarsila's manifesto-like artwork."
         ]
+    },
+    {
+        "name": "Michelangelo",
+        "image": [
+            "./messi-ai/michelangelo/michelangelo1.png", 
+            "./messi-ai/michelangelo/michelangelo2.png", 
+            "./messi-ai/michelangelo/michelangelo3.png", 
+            "./messi-ai/michelangelo/michelangelo4.png", 
+            "./messi-ai/michelangelo/michelangelo5.png", 
+            "./messi-ai/michelangelo/michelangelo6.png", 
+            "./messi-ai/michelangelo/michelangelo7.png", 
+            "./messi-ai/michelangelo/michelangelo8.png", 
+            "./messi-ai/michelangelo/michelangelo9.png", 
+            "./messi-ai/michelangelo/michelangelo10.png"
+        ],
+        "id": 6,
+        "slug": "michelangelo",
+        "imageTitle": [
+            "Divine Victory",
+            "Sculpted Glory",
+            "Sistine Triumph",
+            "Eternal Victory",
+            "Renaissance Goal",
+            "Pieta of Triumph",
+            "Chiseled Success",
+            "Masterpiece of Victory",
+            "Celestial Score",
+            "David's Triumph"
+          ],
+          "imageDescription": [
+            "Messi's victory is captured in the divine strokes of Michelangelo, evoking a sense of timeless triumph.",
+            "Sculpted by mastery, Messi's moment of glory emerges from the marble, a testament to skill and dedication.",
+            "The Sistine Chapel witnesses Messi's triumphant ascent, immortalized alongside angels in Michelangelo's masterpiece.",
+            "In the realm of eternity, Messi's victory stands as a symbol of enduring glory, carved in the annals of time.",
+            "A Renaissance masterpiece unfolds as Messi's goal graces the canvas of history with unparalleled elegance.",
+            "In a modern Pieta, Messi's triumph is cradled in the arms of victory, reflecting the grace of divine accomplishment.",
+            "Chiseled lines of success sculpt Messi's winning moment into eternity, a testament to human achievement.",
+            "A masterful portrayal of victory, Messi's glory shines as a true masterpiece in the hands of Michelangelo.",
+            "The heavens rejoice as Messi's goal resonates with celestial energy, echoing a score heard throughout the cosmos.",
+            "David's spirit lives on as Messi conquers the field, a modern embodiment of triumph over challenges."
+          ]
     }
 
 ]

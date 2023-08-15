@@ -1,5 +1,5 @@
 <template>
-    <main class="modigliani-main">
+    <main class="michelangelo-main">
     <h1>MESSI IN MICHELANGELO'S UNIVERSE</h1>
 
     <ul>
@@ -22,7 +22,7 @@ import data from "../../assets/names.json";
 
 const artists = data.artists;
 
-const amaral = artists.find((artist) => artist.name === "Michelangelo");
+const michelangelo = artists.find((artist) => artist.name === "Michelangelo");
 
 </script>
 
