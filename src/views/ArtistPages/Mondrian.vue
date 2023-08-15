@@ -1,16 +1,16 @@
 <template>
-    <main class="modigliani-main">
-    <h1>MESSI IN AMADEO MODIGLIANI'S UNIVERSE</h1>
+    <main class="mondrian-main">
+    <h1>MESSI IN PIET MONDRIAN'S UNIVERSE</h1>
 
     <ul>
-      <li v-for="index in modigliani.image.length" :key="index" class="img-span-li">
-        <div class="img-wrapper">
-          <img :src="modigliani.image[index - 1]" :alt="modigliani.imageTitle[index - 1]" />
+      <li v-for="index in mondrian.image.length" :key="index" class="img-span-li">
+        <div class="img-wrapper" :style="{ order: index % 2 === 0 ? '2' : '1' }">
+          <img :src="mondrian.image[index - 1]" :alt="mondrian.imageTitle[index - 1]" />
 
         </div>
-        <div class="text-div">
-        <span class="picture-title"><strong>{{ (modigliani.imageTitle[index - 1]).toUpperCase() }}</strong></span>
-        <span class="picture-description"><em>{{ modigliani.imageDescription[index - 1] }}</em></span>
+        <div class="text-div" :style="{ order: index % 2 === 0 ? '1' : '2' }">
+        <span class="picture-title"><strong>{{ (mondrian.imageTitle[index - 1]).toUpperCase() }}</strong></span>
+        <span class="picture-description"><em>{{ mondrian.imageDescription[index - 1] }}</em></span>
       </div>
       </li>
     </ul>
@@ -22,13 +22,13 @@ import data from "../../assets/names.json";
 
 const artists = data.artists;
 
-const amaral = artists.find((artist) => artist.name === "Amadeo Modigliani");
+const mondrian = artists.find((artist) => artist.name === "Piet Mondrian");
 
 </script>
 
 <style scoped>
 
-.modigliani-main{
+.mondrian-main{
     width: 95vw;
     height: auto;
     display: flex;
@@ -74,6 +74,14 @@ main > ul{
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+}
+
+.img-span-li:nth-child(odd) .text-div{
+    order: 1;
+}
+
+.img-span-li:nth-child(even) .text-div{
+    order: 2;
 }
 
 
