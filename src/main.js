@@ -13,6 +13,7 @@ import Magritte from "./views/ArtistPages/Magritte.vue"
 import Amaral from "./views/ArtistPages/Amaral.vue"
 import Mondrian from "./views/ArtistPages/Mondrian.vue"
 import Michelangelo from "./views/ArtistPages/Michelangelo.vue"
+import Kandinski from "./views/ArtistPages/Kandinski.vue"
 
 
 const router = createRouter({
@@ -27,6 +28,7 @@ const router = createRouter({
         {path: '/doamaral', component: Amaral},
         {path: '/mondrian', component: Mondrian},
         {path: '/michelangelo', component: Michelangelo},
+        {path: '/kandinski', component: Kandinski},
     ],
     
 });
