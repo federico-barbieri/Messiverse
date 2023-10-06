@@ -83,13 +83,14 @@
 <style scoped>
 
 main{
-    width: 95vw;
+    max-width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    margin: 0rem auto;
+    margin: 0rem 1rem;
+    text-align: left;
 }
 
 h1{
@@ -107,6 +108,20 @@ p{
   font-size: 1.5rem;
   margin: 0 auto 2rem auto;
   max-width: 60ch;
+}
+
+@media screen and (max-width: 1300px) {
+      main{
+        max-width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin: 0rem 1rem 2rem 1rem;
+        padding: 1rem;
+        text-align: left;
+    }
 }
 
 </style>

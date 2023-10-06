@@ -63,6 +63,8 @@ ul{
     max-width: 80%;
     height: 50%;
     flex-wrap: wrap;
+    padding-inline-start: 0;
+
 }
 
 ul > li {
