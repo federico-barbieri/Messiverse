@@ -1,16 +1,18 @@
 <template>
-    <main class="main-title">
-        <h1>WELCOME TO THE MESSIVERSE</h1>
-      <p class="select-a-universe">Select a universe to discover Messi's random timelines </p>
+    <main>
+        <div class="main-title">
 
-      <ul>
-        <li v-for="artist in artists" :key="artist.id"><router-link :to="'/' + artist.slug">{{ artist.name }}</router-link></li>
-      </ul>
+            <h1>WELCOME TO THE MESSIVERSE</h1>
+            <p class="select-a-universe">Select a universe to discover Messi's random timelines </p>
 
-     
+        </div>
 
-     
+        <div class="artists">
+            <ul>
+                <li v-for="artist in artists" :key="artist.id"><router-link :to="'/' + artist.slug">{{ artist.name }}</router-link></li>
+            </ul>
 
+        </div>   
     </main>
 </template>
 
@@ -25,13 +27,8 @@ const artists = data.artists;
 
 <style scoped>
 
-h1{
-    font-size: 3rem;
-}
+/* main title */
 
-.select-a-universe{
-    font-size: 1.2rem;
-}
 
 .main-title{
     width: 100vw;
@@ -43,6 +40,9 @@ h1{
     justify-content: center;
 }
 
+.select-a-universe{
+    font-size: 1.2rem;
+}
 .main-title > h1{
     font-size: 5rem;
     display: block;
@@ -51,6 +51,8 @@ h1{
     text-align: center;
 }
 
+/* artists */
+
 ul{
     list-style-type: none;
     display: flex;
@@ -58,9 +60,26 @@ ul{
     align-items: center;
     justify-content: space-around;
     margin: 5rem auto;
-    width: 100%;
+    max-width: 80%;
     height: 50%;
     flex-wrap: wrap;
+}
+
+ul > li {
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.5s ease-in;
+    font-size: 2rem;
+}
+
+ul > li:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 700px){
@@ -94,23 +113,6 @@ ul{
     height: 50%;
     flex-wrap: wrap;
 }
-}
-
-ul > li {
-    border: 1px dotted white;
-    padding: 1rem;
-    border-radius: 10px;
-    transition: all 0.5s ease-in;
-    font-size: 2rem;
-}
-
-ul > li:hover {
-    border: 1px dotted black;
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border-radius: 10px;
-    cursor: pointer;
 }
 
 </style>
