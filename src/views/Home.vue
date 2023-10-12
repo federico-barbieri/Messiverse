@@ -9,7 +9,7 @@
 
         <div class="artists">
             <ul>
-                <li v-for="artist in artists" :key="artist.id"><router-link :to="'/' + artist.slug">{{ artist.name }}</router-link></li>
+                <li v-for="artist in artists" :style="artist.font" :key="artist.id"><router-link :to="'/' + artist.slug">{{ artist.name.toUpperCase() }}</router-link></li>
             </ul>
 
         </div>   
@@ -26,6 +26,7 @@ const artists = data.artists;
 </script>
 
 <style scoped>
+
 
 /* main title */
 
@@ -72,7 +73,7 @@ ul > li {
     padding: 1rem;
     border-radius: 10px;
     transition: all 0.5s ease-in;
-    font-size: 2rem;
+    font-size: 4rem;
     display: block;
     width: 60%;
     margin: 2rem auto;
@@ -80,7 +81,6 @@ ul > li {
 }
 
 ul > li:hover {
-    border: 1px solid black;
     background-color: white;
     color: black;
     padding: 1rem;
@@ -141,7 +141,6 @@ ul > li {
 }
 
 ul > li:hover {
-    border: 1px solid black;
     background-color: white;
     color: black;
     padding: 1rem;
@@ -204,7 +203,6 @@ ul > li:hover {
     }
 
     ul > li:hover {
-    border: 1px solid black;
     background-color: white;
     color: black;
     padding: 1rem;

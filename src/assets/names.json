@@ -40,7 +40,8 @@
         "The stars align in a cosmic formation, spelling out Messi's name and commemorating his World Cup win.",
         "With eccentric flair, Dali captures the euphoria of Messi's victory, where the ordinary becomes extraordinary.",
         "In a world of surreal landscapes, Messi's triumph becomes a recurring dream that inspires generations."
-      ]
+      ],
+      "font": "font-family: 'Cinzel Decorative', serif;"
     },
     {
         "name": "Pablo Picasso",
@@ -81,7 +82,8 @@
         "Messi's triumph portrayed through the lens of Picasso's Blue Period, evoking deep emotions and introspection.",
         "Picasso's masterful portrait of Messi immortalizes the World Cup victory with an enduring gaze.",
         "Vibrant colors and lively brushstrokes capture the joy and euphoria of Messi's decisive winning goal."
-    ]
+    ],
+    "font": "font-family: 'Josefin Sans', sans-serif;"
     },
     {
         "name": "Rene Magritte",
@@ -122,7 +124,9 @@
             "Clouds take on symbolic meaning in Magritte's painting, representing the dreams and aspirations of Messi's triumph.",
             "In classic Magritte style, the painting challenges conventional ideas of victory, leaving viewers in contemplation.",
             "Magritte's artwork presents Messi's victory as a beckoning call to new heights and achievements."
-        ]
+        ],
+        "font": "font-family: 'Abril Fatface', serif;"
+
     },
     {
         "name": "Hieronymous Bosch",
@@ -162,7 +166,8 @@
             "A winding path leads Messi through Bosch's imaginative landscape to the pinnacle of victory.",
             "Bosch's self-portrait celebrates Messi's triumph while paying homage to the artist's own name.",
             "In a fantastical inferno, Messi emerges unscathed, symbolizing his triumph over adversity."
-        ]
+        ],
+        "font": "font-family: 'Uncial Antiqua', serif;"
     },
     {
         "name": "Tarsila Do Amaral",
@@ -205,7 +210,9 @@
             "Flowers and blooms abound in Tarsila's painting, symbolizing the blossoming of Messi's success.",
             "Tarsila's tropical paradise sets the stage for Messi's triumph, surrounded by nature's beauty.",
             "Messi's triumph becomes a powerful statement of determination and excellence in Tarsila's manifesto-like artwork."
-        ]
+        ],
+        "font": "font-family: 'Cormorant Garamond', serif;"
+
     },
     {
         "name": "Michelangelo",
@@ -246,7 +253,9 @@
             "A masterful portrayal of victory, Messi's glory shines as a true masterpiece in the hands of Michelangelo.",
             "The heavens rejoice as Messi's goal resonates with celestial energy, echoing a score heard throughout the cosmos.",
             "David's spirit lives on as Messi conquers the field, a modern embodiment of triumph over challenges."
-          ]
+          ],
+          "font": "font-family: 'EB Garamond', serif;"
+
     },
     {
         "name": "Piet Mondrian",
@@ -287,7 +296,9 @@
             "Mondrian's rhythmic patterns embody Messi's triumphant energy, pulsating with the thrill of victory.",
             "In a symphony of colors and shapes, Mondrian's art echoes the harmony of Messi's triumphant moment on the field.",
             "Messi's triumph resonates within Mondrian's neoplastic framework, creating a visual masterpiece of victory."
-        ]
+        ],
+        "font": "font-family: 'Archivo Black', sans-serif;"
+
     }
 
 ]

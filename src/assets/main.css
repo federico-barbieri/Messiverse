@@ -1,5 +1,26 @@
 @import './base.css';
 
+/* DALI FONT: font-family: 'Cinzel Decorative', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+/* PICASSO FONT: font-family: 'Josefin Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* MAGRITTE FONT: font-family: 'Abril Fatface', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+/* BOSCH FONT: font-family: 'Uncial Antiqua', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+/* MICHELANGELO FONT: font-family: 'EB Garamond', serif; */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+/* MONDRIAN FONT: font-family: 'Archivo Black', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* TARSILA DO AMARAL FONT: font-family: 'Cormorant Garamond', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
 #app {
   margin: 0 auto;
   padding: 2 0rem;
