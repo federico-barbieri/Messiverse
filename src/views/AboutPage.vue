@@ -124,4 +124,24 @@ p{
     }
 }
 
+@media screen and (max-width: 767px) {
+  h1{
+    font-size: 2.5rem;
+    margin: 2rem auto;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin: 1rem auto;
+}
+
+p{
+  font-size: 1rem;
+  margin: 0 auto 2rem auto;
+  max-width: 60ch;
+}
+}
+
+
 </style>
