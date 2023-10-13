@@ -20,7 +20,7 @@ watch(() => route.path, (newPath) => {
 <template>
 
 
-<Layout>
+<Layout class="layout">
 
 
   <main v-if="showHomePage">
@@ -41,5 +41,9 @@ watch(() => route.path, (newPath) => {
 </template>
 
 <style scoped>
+
+.layout{
+  z-index: 100;
+}
 
 </style>
