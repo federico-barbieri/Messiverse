@@ -274,15 +274,18 @@ h1{
 }
 
 .img-span-li{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-  border: 1px solid white;
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        border: 1px solid black;
+        margin: 2rem 1rem;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
 }
 
 .img-span-li:nth-child(odd) .text-div{

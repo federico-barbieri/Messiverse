@@ -151,7 +151,7 @@ ul > li:hover {
 
 @media only screen and (max-width: 700px){
     .main-title{
-    width: 90vw;
+    width: 95vw;
     margin: 2rem auto;
     height: 100vh;
     border: 1px solid white;
@@ -198,8 +198,9 @@ ul > li:hover {
     padding: 1rem;
     border-radius: 10px;
     transition: all 0.5s ease-in;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 2rem auto;
+    width: 100%;
     }
 
     ul > li:hover {
