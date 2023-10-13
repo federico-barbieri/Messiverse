@@ -1,0 +1,43 @@
+{
+    "name": "Piet Mondrian",
+    "image": [
+        "./messi-ai/mondrian/mondrian1.png", 
+        "./messi-ai/mondrian/mondrian2.png", 
+        "./messi-ai/mondrian/mondrian3.png", 
+        "./messi-ai/mondrian/mondrian4.png", 
+        "./messi-ai/mondrian/mondrian5.png", 
+        "./messi-ai/mondrian/mondrian6.png", 
+        "./messi-ai/mondrian/mondrian7.png", 
+        "./messi-ai/mondrian/mondrian8.png", 
+        "./messi-ai/mondrian/mondrian9.png", 
+        "./messi-ai/mondrian/mondrian10.png"
+    ],
+    "id": 7,
+    "slug": "mondrian",
+    "imageTitle": [
+        "Victory in Neoplasticism",
+        "Mondrian's Goal Composition",
+        "The Dynamic Victory",
+        "The Victory's Grid",
+        "Evolution of Triumph",
+        "Mondrian's Euphoric Goal",
+        "Victorious Geometries",
+        "Rhythmic Victory",
+        "The Victory's Harmony",
+        "Neoplastic Triumph"
+    ],
+    "imageDescription": [
+        "Mondrian's iconic neoplastic style captures Messi's victory with precise geometric forms and bold primary colors.",
+        "Messi's goal becomes a composition of lines and rectangles, perfectly balanced within Mondrian's aesthetic vision.",
+        "Dynamic movement infuses Messi's victory as Mondrian's lines intersect and overlap, creating a sense of rhythm.",
+        "The grid of victory emerges as Messi's triumph takes shape, aligning with Mondrian's commitment to order and proportion.",
+        "From victory's inception to its realization, Mondrian's art traces the evolution of Messi's journey to World Cup success.",
+        "Mondrian's style celebrates Messi's triumph in an explosion of color and form, a testament to the artist's joyous vision.",
+        "Geometric shapes unite in harmony, mirroring Messi's victory as Mondrian's art transforms into an anthem of success.",
+        "Mondrian's rhythmic patterns embody Messi's triumphant energy, pulsating with the thrill of victory.",
+        "In a symphony of colors and shapes, Mondrian's art echoes the harmony of Messi's triumphant moment on the field.",
+        "Messi's triumph resonates within Mondrian's neoplastic framework, creating a visual masterpiece of victory."
+    ],
+    "font": "font-family: 'Archivo Black', sans-serif;"
+
+}
