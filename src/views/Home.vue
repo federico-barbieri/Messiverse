@@ -3,6 +3,7 @@
         <div class="main-title">   
 
             <h1>WELCOME TO THE MESSIVERSE</h1>
+            <p class="select-a-universe">A collection of universes where Messi completed football </p>
 
         </div>
 
@@ -67,7 +68,6 @@ h1{
     padding: 1rem;
     text-align: center;
     z-index: 1;
-    position: absolute;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -178,7 +178,6 @@ ul{
 ul > li {
     padding: 1rem;
     border-radius: 10px;
-    transition: all 0.5s ease-in;
     font-size: 2rem;
     display: block;
     width: 60%;
@@ -233,7 +232,6 @@ ul > li {
     ul > li {
     padding: 1rem;
     border-radius: 10px;
-    transition: all 0.5s ease-in;
     font-size: 1.5rem;
     margin: 2rem auto;
     width: 100%;
