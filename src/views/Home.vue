@@ -1,6 +1,12 @@
 <template>
     <main>
-        <div class="main-title">
+        <div class="main-title">   
+
+            <h1>WELCOME TO THE MESSIVERSE</h1>
+
+        </div>
+
+        <div class="artists">
 
             <ul class="first-row">
                 <li v-for="artist in artists.slice(0, 3)" :style="artist.font" :key="artist.id">
@@ -8,9 +14,9 @@
                        <img class="adjust-img" :src="artist.image[Math.floor(Math.random() * 6)]" :alt="artist.name" :key="artist.id">
                     </router-link>
                 </li>
-            </ul>   
+            </ul>
 
-            <h1>WELCOME TO THE MESSIVERSE</h1>
+
 
             <ul class="second-row">
                 <li v-for="artist in artists.slice(3, 6)" :style="artist.font" :key="artist.id">
@@ -19,10 +25,6 @@
                     </router-link>
                 </li>
             </ul>
-
-        </div>
-
-        <div class="artists">
             
 
         </div>   
@@ -69,6 +71,16 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 
+.artists{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
 .first-row{
     list-style-type: none;
     display: flex;
@@ -83,14 +95,7 @@ h1{
     z-index: 10;
 }
 
-.first-row > li {
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-}
 
-.first-row > li:hover {
-    transform: translateY(-5rem);
-}
 
 .second-row{
     list-style-type: none;
@@ -104,21 +109,10 @@ h1{
     flex-wrap: wrap;
     padding-inline-start: 0;
     z-index: 10;
-
-}
-
-.second-row > li {
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-
-.second-row > li:hover {
-    transform: translateY(5rem);
 }
 
 ul > li {
     padding: 1rem;
-    transition: all 0.5s ease-in;
     font-size: 2rem;
     width: 33%;
     height: 100%;
@@ -132,14 +126,7 @@ ul > li {
 
 }
 
-ul > li:hover {
-    background-color: lightblue;
-    color: black;
-    padding: 1rem;
-    cursor: pointer;
-}
-
-.adjust-image{
+.adjust-img{
     max-width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -155,7 +142,6 @@ ul > li:hover {
 .main-title{
     width: 100vw;
     height: 80vh;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +176,6 @@ ul{
 }
 
 ul > li {
-    border: 1px solid white;
     padding: 1rem;
     border-radius: 10px;
     transition: all 0.5s ease-in;
@@ -201,13 +186,6 @@ ul > li {
     text-align: center;
 }
 
-ul > li:hover {
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border-radius: 10px;
-    cursor: pointer;
-}
 }
 
 @media only screen and (max-width: 700px){
@@ -215,7 +193,6 @@ ul > li:hover {
     width: 95vw;
     margin: 2rem auto;
     height: 100vh;
-    border: 1px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -250,26 +227,16 @@ ul > li:hover {
     width: 100%;
     height: auto;
     flex-wrap: nowrap;
-    border: 1px solid green;
     padding: 1rem;
     }
 
     ul > li {
-    border: 1px solid white;
     padding: 1rem;
     border-radius: 10px;
     transition: all 0.5s ease-in;
     font-size: 1.5rem;
     margin: 2rem auto;
     width: 100%;
-    }
-
-    ul > li:hover {
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border-radius: 10px;
-    cursor: pointer;
     }
 }
 
