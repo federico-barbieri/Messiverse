@@ -12,8 +12,10 @@
             <ul class="first-row">
                 <li v-for="artist in artists.slice(0, 3)" :style="artist.font" :key="artist.id">
                     <router-link :to="'/' + artist.slug">
-                       <img class="adjust-img" :src="artist.image[Math.floor(Math.random() * 6)]" :alt="artist.name" :key="artist.id">
+                       <img class="adjust-img" :src="artist.image[Math.floor(Math.random() * 6)]" :alt="artist.name" :key="artist.id" @mouseenter="hoverIsOn" @mouseleave="!hoverIsOn">
                     </router-link>
+                    <p v-if="hoverIsOn">{{artist.name}}</p>
+
                 </li>
             </ul>
 
@@ -35,7 +37,11 @@
 <script setup>
 import data from "../assets/names.json"
 
+import { ref } from "vue";
+
 const artists = data.artists;
+
+const hoverIsOn = ref(false);
 
 
 
@@ -135,6 +141,7 @@ ul > li {
     border-top-left-radius: 30px;
     object-position: center;
 }
+
 
 /* Tablet Styles */
 @media screen and (min-width: 768px) and (max-width: 1300px) {
