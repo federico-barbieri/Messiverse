@@ -19,10 +19,16 @@
                 </li>
             </ul>
 
-
-
             <ul class="second-row">
                 <li v-for="artist in artists.slice(3, 6)" :style="artist.font" :key="artist.id">
+                    <router-link :to="'/' + artist.slug">
+                        <img class="adjust-img" :src="artist.image[Math.floor(Math.random() * 6)]" :alt="artist.name" :key="artist.id">
+                    </router-link>
+                </li>
+            </ul>
+
+            <ul class="third-row">
+                <li v-for="artist in artists.slice(6, 9)" :style="artist.font" :key="artist.id">
                     <router-link :to="'/' + artist.slug">
                         <img class="adjust-img" :src="artist.image[Math.floor(Math.random() * 6)]" :alt="artist.name" :key="artist.id">
                     </router-link>
@@ -104,6 +110,20 @@ h1{
 
 
 .second-row{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0rem auto;
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+    padding-inline-start: 0;
+    z-index: 10;
+}
+
+.third-row{
     list-style-type: none;
     display: flex;
     flex-direction: row;

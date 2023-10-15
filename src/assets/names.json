@@ -256,6 +256,133 @@
           ],
           "font": "font-family: 'EB Garamond', serif;"
 
-    }
+    },
+    {
+        "name": "Piet Mondrian",
+        "image": [
+            "./messi-ai/mondrian/mondrian1.png", 
+            "./messi-ai/mondrian/mondrian2.png", 
+            "./messi-ai/mondrian/mondrian3.png", 
+            "./messi-ai/mondrian/mondrian4.png", 
+            "./messi-ai/mondrian/mondrian5.png", 
+            "./messi-ai/mondrian/mondrian6.png", 
+            "./messi-ai/mondrian/mondrian7.png", 
+            "./messi-ai/mondrian/mondrian8.png", 
+            "./messi-ai/mondrian/mondrian9.png", 
+            "./messi-ai/mondrian/mondrian10.png"
+        ],
+        "id": 7,
+        "slug": "mondrian",
+        "imageTitle": [
+            "Victory in Neoplasticism",
+            "Mondrian's Goal Composition",
+            "The Dynamic Victory",
+            "The Victory's Grid",
+            "Evolution of Triumph",
+            "Mondrian's Euphoric Goal",
+            "Victorious Geometries",
+            "Rhythmic Victory",
+            "The Victory's Harmony",
+            "Neoplastic Triumph"
+        ],
+        "imageDescription": [
+            "Mondrian's iconic neoplastic style captures Messi's victory with precise geometric forms and bold primary colors.",
+            "Messi's goal becomes a composition of lines and rectangles, perfectly balanced within Mondrian's aesthetic vision.",
+            "Dynamic movement infuses Messi's victory as Mondrian's lines intersect and overlap, creating a sense of rhythm.",
+            "The grid of victory emerges as Messi's triumph takes shape, aligning with Mondrian's commitment to order and proportion.",
+            "From victory's inception to its realization, Mondrian's art traces the evolution of Messi's journey to World Cup success.",
+            "Mondrian's style celebrates Messi's triumph in an explosion of color and form, a testament to the artist's joyous vision.",
+            "Geometric shapes unite in harmony, mirroring Messi's victory as Mondrian's art transforms into an anthem of success.",
+            "Mondrian's rhythmic patterns embody Messi's triumphant energy, pulsating with the thrill of victory.",
+            "In a symphony of colors and shapes, Mondrian's art echoes the harmony of Messi's triumphant moment on the field.",
+            "Messi's triumph resonates within Mondrian's neoplastic framework, creating a visual masterpiece of victory."
+        ],
+        "font": "font-family: 'Archivo Black', sans-serif;"
+    
+    },
+    {
+        "name": "Wassily Kandinsky",
+        "image": [
+        "./messi-ai/kandinsky/kandinsky1.png",
+        "./messi-ai/kandinsky/kandinsky2.png",
+        "./messi-ai/kandinsky/kandinsky3.png",
+        "./messi-ai/kandinsky/kandinsky4.png",
+        "./messi-ai/kandinsky/kandinsky5.png",
+        "./messi-ai/kandinsky/kandinsky6.png",
+        "./messi-ai/kandinsky/kandinsky7.png",
+        "./messi-ai/kandinsky/kandinsky8.png",
+        "./messi-ai/kandinsky/kandinsky9.png",
+        "./messi-ai/kandinsky/kandinsky10.png"
+        ],
+        "id": 8,
+        "slug": "kandinsky",
+        "imageTitle": [
+        "Harmony in Abstraction",
+        "Rhythmic Color Symphony",
+        "Abstract Melodies",
+        "Dancing Geometries",
+        "Synchronized Chaos",
+        "The Spiritual Dance",
+        "Whispers of Color",
+        "Abstract Ballet",
+        "Melodic Composition",
+        "Symphony of Shapes"
+        ],
+        "imageDescription": [
+        "Kandinsky's abstract style captures Messi's victory with a harmonious blend of colors and shapes, transcending conventional forms.",
+        "Messi's goal transforms into a rhythmic symphony of colors, echoing the vibrant energy of the victory on the football field.",
+        "Abstract melodies resonate as Messi's triumph takes center stage, with Kandinsky's art translating the joyous moment into visual music.",
+        "Geometric shapes dance and intertwine, celebrating Messi's victory with a choreography of abstract forms.",
+        "Amidst chaos, synchronized patterns emerge, reflecting both Messi's precise moves and Kandinsky's ability to find order in disorder.",
+        "In the spiritual dance of art, Messi's triumph becomes a sacred ritual, beautifully choreographed within Kandinsky's abstract realm.",
+        "Whispers of color cascade across the canvas, capturing the essence of Messi's victory in subtle yet profound ways.",
+        "Abstract ballet unfolds as Messi's achievement is expressed through graceful movements and fluid forms, mirroring the elegance of the sport.",
+        "Kandinsky's melodic composition encapsulates the sweet victory of Messi, harmonizing diverse elements into a visual masterpiece.",
+        "A symphony of shapes unfolds, depicting Messi's triumphant moment as a complex yet beautiful composition within Kandinsky's abstract universe."
+        ],
+        "font": "font-family: 'Archivo Black', sans-serif;"
+        },
+        {
+            "name": "Stanislaw Szukalski",
+            "image": [
+            "./messi-ai/szukalski/szukalski1.png",
+            "./messi-ai/szukalski/szukalski2.png",
+            "./messi-ai/szukalski/szukalski3.png",
+            "./messi-ai/szukalski/szukalski4.png",
+            "./messi-ai/szukalski/szukalski5.png",
+            "./messi-ai/szukalski/szukalski6.png",
+            "./messi-ai/szukalski/szukalski7.png",
+            "./messi-ai/szukalski/szukalski8.png",
+            "./messi-ai/szukalski/szukalski9.png",
+            "./messi-ai/szukalski/szukalski10.png"
+            ],
+            "id": 9,
+            "slug": "szukalski",
+            "imageTitle": [
+            "Primordial Triumph",
+            "Szukalski's Victory Dance",
+            "Mythical Conquest",
+            "Triumph of the Ancients",
+            "Szukalski's Muse",
+            "The Eternal Victory",
+            "Sculpting Triumph",
+            "Ancient Whispers of Victory",
+            "The Warrior's Triumph",
+            "Szukalski's Legacy"
+            ],
+            "imageDescription": [
+            "Szukalski's art captures Messi's victory as a primordial force, echoing triumphs that date back to the dawn of humanity.",
+            "In Szukalski's vision, Messi's achievement becomes a victory dance, celebrating the human spirit and the pursuit of excellence.",
+            "A mythical conquest unfolds as Messi's triumph merges with ancient legends, becoming a tale of heroism and glory.",
+            "The triumph of the ancients is reborn in Messi's victory, echoing the timeless pursuit of greatness celebrated in Szukalski's work.",
+            "Szukalski's muse inspires Messi's triumph, guiding the athlete to reach unparalleled heights of success and accomplishment.",
+            "Eternal victory is immortalized in Szukalski's art, portraying Messi's achievement as a timeless and universal triumph of the human spirit.",
+            "Through the sculptor's hands, triumph takes form, shaping Messi's victory into a tangible and enduring masterpiece.",
+            "Ancient whispers of victory resonate in Szukalski's art, telling the story of triumphs that have reverberated through the ages.",
+            "The warrior's triumph is celebrated in Szukalski's portrayal, honoring Messi's strength, skill, and unwavering determination on the battlefield.",
+            "Szukalski's legacy intertwines with Messi's triumph, creating a narrative of inspiration and achievement that will be remembered for generations."
+            ],
+            "font": "font-family: 'Archivo Black', sans-serif;"
+            }
     ]
 }
