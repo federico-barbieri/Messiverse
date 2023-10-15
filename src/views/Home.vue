@@ -74,7 +74,7 @@ h1{
     padding: 1rem;
     text-align: center;
     z-index: 1;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .artists{

@@ -2,7 +2,7 @@
     <main>
         <div class="main-title">
 
-            <h1>MESSI IN SALVADOR DALI'S UNIVERSE</h1>
+            <h1 id="mainTitle">MESSI IN SALVADOR DALI'S UNIVERSE</h1>
 
         </div>
 
@@ -22,6 +22,8 @@
             </ul>
 
         </div>
+
+        <a href="#mainTitle">Back to top</a>
   </main>
 </template>
 
@@ -78,12 +80,11 @@ h1{
   width: 100%;
   height: auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  border: 1px solid white;
 }
 
 .img-span-li:nth-child(odd) .text-div{
@@ -99,7 +100,7 @@ h1{
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
@@ -122,115 +123,19 @@ h1{
 
 
 img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-    filter: drop-shadow(2px 2px 2px white);
-    padding: 1rem;
-    transition: all 0.5s ease-in;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1300px) {
-
-.main-title{
-  width: 80vw;
-    height: 80vh;
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    text-align: center;
-}
-
-h1{
-    font-size: 2rem;
-}
-
-.grid{
-    width: 80vw;
-    height: auto;
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto;
-}
-
-
-.grid > ul{
-    width: 100%;
-    height: auto;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 1rem;
-}
-
-.img-span-li{
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem;
-  border: 1px solid white;
-}
-
-.img-span-li:nth-child(odd) .text-div{
-    order: 1;
-}
-
-.img-span-li:nth-child(even) .text-div{
-    order: 2;
-}
-
-.text-div{
-  max-width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    object-position: center;
 }
 
 
 
-.picture-title{
-  margin-bottom: 1rem;
-  text-decoration: underline;
-  font-size: 2rem;
-}
 
-.picture-description{
-  font-size: 1.2rem;
-  max-width: 80%;
-}
-
-.img-wrapper{
-  max-width: 50%;
-}
-
-
-img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-    filter: drop-shadow(2px 2px 2px white);
-    padding: 1rem;
-    transition: all 0.5s ease-in;
-}
-}
-
-
-@media screen and (max-width: 767px){
+@media screen and (max-width:1300px){
 
 .main-title{
   width: 100vw;
@@ -325,12 +230,13 @@ h1{
 
 
 img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-    filter: drop-shadow(2px 2px 2px white);
-    padding: 1rem;
-    transition: all 0.5s ease-in;
+  max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    object-position: center;
 }
 }
 
