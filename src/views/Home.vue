@@ -27,6 +27,8 @@
                 </li>
             </ul>
 
+            <!--
+
             <ul class="third-row">
                 <li v-for="artist in artists.slice(6, 9)" :style="artist.font" :key="artist.id">
                     <router-link :to="'/' + artist.slug">
@@ -34,6 +36,8 @@
                     </router-link>
                 </li>
             </ul>
+
+            -->
             
 
         </div>   

@@ -1,7 +1,7 @@
 <template>
     <main class="mondrian-main">
           <div class="main-title">
-                    <h1 id="mainTitle">MESSI IN PIET MONDRIAN'S UNIVERSE</h1>
+                    <h1 id="mainTitle">MESSI IN STANISLAW SZUKALSKI'S UNIVERSE</h1>
           </div>
 
           <div class="grid">
@@ -19,8 +19,6 @@
                     </li>
               </ul>
             </div>
-            <a href="#mainTitle">Back to top</a>
-
      </main>
 </template>
 
