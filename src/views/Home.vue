@@ -27,8 +27,6 @@
                 </li>
             </ul>
 
-            <!--
-
             <ul class="third-row">
                 <li v-for="artist in artists.slice(6, 9)" :style="artist.font" :key="artist.id">
                     <router-link :to="'/' + artist.slug">
@@ -36,8 +34,6 @@
                     </router-link>
                 </li>
             </ul>
-
-            -->
             
 
         </div>   
@@ -105,7 +101,7 @@ h1{
     justify-content: space-around;
     margin: 0rem auto;
     width: 100%;
-    height: 50%;
+    height: 30%;
     flex-wrap: wrap;
     padding-inline-start: 0;
     z-index: 10;
@@ -121,7 +117,7 @@ h1{
     justify-content: space-around;
     margin: 0rem auto;
     width: 100%;
-    height: 50%;
+    height: 30%;
     flex-wrap: wrap;
     padding-inline-start: 0;
     z-index: 10;
@@ -135,7 +131,7 @@ h1{
     justify-content: space-around;
     margin: 0rem auto;
     width: 100%;
-    height: 50%;
+    height: 30%;
     flex-wrap: wrap;
     padding-inline-start: 0;
     z-index: 10;

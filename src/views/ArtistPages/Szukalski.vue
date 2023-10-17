@@ -7,18 +7,19 @@
           <div class="grid">
 
               <ul>
-                    <li v-for="index in mondrian.image.length" :key="index" class="img-span-li">
+                    <li v-for="index in szukalski.image.length" :key="index" class="img-span-li">
                         <div class="img-wrapper" :style="{ order: index % 2 === 0 ? '2' : '1' }">
-                          <img :src="mondrian.image[index - 1]" :alt="mondrian.imageTitle[index - 1]" />
+                          <img :src="szukalski.image[index - 1]" :alt="szukalski.imageTitle[index - 1]" />
                         </div>
                       
                         <div class="text-div" :style="{ order: index % 2 === 0 ? '1' : '2' }">
-                            <span class="picture-title"><strong>{{ (mondrian.imageTitle[index - 1]).toUpperCase() }}</strong></span>
-                            <span class="picture-description"><em>{{ mondrian.imageDescription[index - 1] }}</em></span>
+                            <span class="picture-title"><strong>{{ (szukalski.imageTitle[index - 1]).toUpperCase() }}</strong></span>
+                            <span class="picture-description"><em>{{ szukalski.imageDescription[index - 1] }}</em></span>
                         </div>
                     </li>
               </ul>
             </div>
+            <a href="#mainTitle" class="green">Back to top</a>
      </main>
 </template>
 
@@ -27,11 +28,23 @@ import data from "../../assets/names.json";
 
 const artists = data.artists;
 
-const mondrian = artists.find((artist) => artist.name === "Piet Mondrian");
+const szukalski = artists.find((artist) => artist.name === "Stanislaw Szukalski");
 
 </script>
 
 <style scoped>
+
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 1rem;
+  width: 100%;
+  display: block;
+  height: 5vh;
+  text-align: center;
+  margin: 2rem auto;
+}
 
 
 .main-title{

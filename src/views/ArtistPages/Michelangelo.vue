@@ -17,7 +17,7 @@
                       </li>
                   </ul>
             </div>
-            <a href="#mainTitle">Back to top</a>
+            <a href="#mainTitle" class="green">Back to top</a>
 
      </main>
 </template>
@@ -32,6 +32,18 @@ const michelangelo = artists.find((artist) => artist.name === "Michelangelo");
 </script>
 
 <style scoped>
+
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 1rem;
+  width: 100%;
+  display: block;
+  height: 5vh;
+  text-align: center;
+  margin: 2rem auto;
+}
 
 .main-title{
   width: 100vw;

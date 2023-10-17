@@ -6,20 +6,20 @@
     
           <div class="grid">
                 <ul>
-                    <li v-for="index in kandinski.image.length" :key="index" class="img-span-li">
+                    <li v-for="index in kandinsky.image.length" :key="index" class="img-span-li">
               
                         <div class="img-wrapper" :style="{ order: index % 2 === 0 ? '2' : '1' }">
-                          <img :src="kandinski.image[index - 1]" :alt="amaral.imageTitle[index - 1]" />
+                          <img :src="kandinsky.image[index - 1]" :alt="kandinsky.imageTitle[index - 1]" />
                         </div>
                   
                         <div class="text-div" :style="{ order: index % 2 === 0 ? '1' : '2' }">
-                          <span class="picture-title"><strong>{{ (kandinski.imageTitle[index - 1]).toUpperCase() }}</strong></span>
-                          <span class="picture-description"><em>{{ kandinski.imageDescription[index - 1] }}</em></span>
+                          <span class="picture-title"><strong>{{ (kandinsky.imageTitle[index - 1]).toUpperCase() }}</strong></span>
+                          <span class="picture-description"><em>{{ kandinsky.imageDescription[index - 1] }}</em></span>
                         </div>
                       </li>
                   </ul>
             </div>
-            <a href="#mainTitle">Back to top</a>
+            <a href="#mainTitle" class="green">Back to top</a>
 
       </main>
 </template>
@@ -29,11 +29,23 @@ import data from "../../assets/names.json";
 
 const artists = data.artists;
 
-const kandinski = artists.find((artist) => artist.name === "Vassily Kandinski");
+const kandinsky = artists.find((artist) => artist.name === "Wassily Kandinsky");
 
 </script>
 
 <style scoped>
+
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 1rem;
+  width: 100%;
+  display: block;
+  height: 5vh;
+  text-align: center;
+  margin: 2rem auto;
+}
 
 .main-title{
   width: 100vw;

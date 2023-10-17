@@ -298,7 +298,6 @@
             "Messi's triumph resonates within Mondrian's neoplastic framework, creating a visual masterpiece of victory."
         ],
         "font": "font-family: 'Archivo Black', sans-serif;"
-    
     },
     {
         "name": "Wassily Kandinsky",
@@ -343,7 +342,7 @@
         "font": "font-family: 'Archivo Black', sans-serif;"
         },
         {
-            "name": "Stanislaw Szukalski",
+        "name": "Stanislaw Szukalski",
             "image": [
             "./messi-ai/szukalski/szukalski1.png",
             "./messi-ai/szukalski/szukalski2.png",
