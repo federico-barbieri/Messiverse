@@ -1,29 +1,7 @@
-# vue-router-app
+Welcome to THE MESSIVERSE. 
 
-This template should help get you started developing with Vue 3 in Vite.
+This project explores the fascinating concept of how legendary artists from the past might have depicted Lionel Messi's triumphant moment of winning the World Cup. 
 
-## Recommended IDE Setup
+We delve into the artistic imagination of renowned painters, imagining how they would have recreated this historic event in their own distinct styles.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Made with Vue 3, Vite and DALL-E.
